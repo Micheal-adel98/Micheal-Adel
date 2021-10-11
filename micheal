@@ -1,0 +1,13 @@
+sudo apt -get install git -all
+git config -- global user.name "Micheal-adel98"
+git config --global user.email michealadell98@gmail.com
+mkdir michealadel
+cd michealadel
+git init
+touch micheal
+vim micheal
+git add micheal
+git commit -m "create micheal file"
+create repo on get hub
+git remote add origin git@github.com:Micheal-adel98/Micheal-Adel.git
+git branch -M main
